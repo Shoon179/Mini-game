@@ -164,6 +164,7 @@ end_screen = pygame.transform.scale(pygame.image.load('assets/bg/sky.png').conve
 
 #sound
 reward_sound = pygame.mixer.Sound('assets/sound/reward_pickup.wav')
+reward_sound.set_volume(0.6)
 gameover_sound = pygame.mixer.Sound('assets/sound/gameover.wav')
 
 #game_message
