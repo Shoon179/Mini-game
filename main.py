@@ -199,7 +199,6 @@ while True:
                 star_num = 0
                 dia_num = 0
                 start_time = int(pygame.time.get_ticks()/1000)
-                runner.sprite.rect.bottom = 350
 
     if game_active:
         screen.blit(sky_surface, (0,0))
